@@ -1,6 +1,6 @@
 {
   "name": "lucbevilaqua-react-ui-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Draft for ui kit in react",
   "main": "./dist/index.js",
   "author": "Lucas Bevilaqua",

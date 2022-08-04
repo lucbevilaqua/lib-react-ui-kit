@@ -4,7 +4,7 @@ import * as S from './styles';
 
 export const Button: React.FC<ButtonProps> = ({
   onClick,
-  disabled,
+  disabled = false,
   children,
   ...args
 }) => {
