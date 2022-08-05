@@ -1,8 +1,23 @@
 {
     "extends": "@tsconfig/recommended/tsconfig.json",
     "compilerOptions": {
-        "outDir": "dist/esm",
-        "jsx": "preserve"
+        "esModuleInterop": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "jsx": "react",
+        "module": "ESNext",  
+        "declaration": true,
+        "declarationDir": "types",
+        "sourceMap": true,
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "emitDeclarationOnly": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
     },
-    "exclude": ["node_modules", "stories"]
+    "exclude": [
+        "dist",
+        "node_modules",
+        "src/stories"
+    ]
 }
