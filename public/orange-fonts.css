@@ -1,0 +1,57 @@
+@font-face {
+  font-weight: 326;
+  font-family: 'Tungsten';
+  font-style: normal;
+  src: url('./Tungsten/Tungsten-Light.otf');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Tungsten';
+  font-style: normal;
+  src: url('./Tungsten/Tungsten-Medium.otf');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'Tungsten';
+  font-style: normal;
+  src: url('./Tungsten/Tungsten-Medium.otf');
+}
+
+@font-face {
+  font-weight: 550;
+  font-family: 'Tungsten';
+  font-style: normal;
+  src: url('./Tungsten/Tungsten-Semibold.otf');
+}
+
+/* Akzidenz */
+
+@font-face {
+  font-weight: 326;
+  font-family: 'Akzidenz';
+  font-style: normal;
+  src: url('/Akzidenz/AkzidenzGrotesk-Light.otf');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Akzidenz';
+  font-style: normal;
+  src: url('./Akzidenz/Akzidenz-Grotesk\ BQ\ Regular.ttf');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'Akzidenz';
+  font-style: normal;
+  src: url('./Akzidenz/AkzidenzGrotesk-Medium.otf');
+}
+
+@font-face {
+  font-weight: 550;
+  font-family: 'Akzidenz';
+  font-style: normal;
+  src: url('./Akzidenz/AkzidenzGrotesk-Bold.otf');  
+}
